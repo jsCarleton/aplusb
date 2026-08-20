@@ -1,0 +1,9 @@
+-R /Users/john/.opam/WasmCert-Coq/.opam-switch/build/coq-wasm.2.2.0/_build/install/default/lib/coq/user-contrib/Wasm Wasm
+-Q . Add
+
+AddBytes.v
+AddAst.v
+AddCorrespondence.v
+AddInvoke.v
+AddSteps.v
+AddCorrect.v
