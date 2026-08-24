@@ -14,7 +14,7 @@ smoke: wasm
 	node test.js
 
 bytes: wasm
-	python3 tools/wasm_bytes_to_coq.py add.wasm coq/AddBytes.v add_wasm_bytes
+	python3 tools/wasm_bytes_to_coq.py add.wasm coq/Add.v add_wasm_bytes
 
 coq: bytes
 	$(MAKE) -C coq
